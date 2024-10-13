@@ -1,0 +1,134 @@
+.available-cities {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.filtering{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.filter{
+  margin:10px;
+  width: 5rem;
+  border-radius: 5px;
+  background-color: white;
+  border: none;
+}
+
+.hostel-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 20px 40px;
+  padding: 20px;
+  width: 90%;
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  display: flex;
+  gap: 20px; 
+}
+
+.card-image {
+  width: 380px; 
+ 
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.card-details {
+  flex: 1; 
+}
+
+
+
+.card-details p {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+
+.room-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: 35%; 
+}
+
+.book{
+  margin-left: 30%;
+}
+.btn-infer{
+  margin-left: 10%;
+}
+.HostelFilter label, .RoomFilter label, .PriceRange input {
+  margin-right: 5px; 
+  margin-bottom: 20px;
+}
+
+.filter-btn{
+  display: flex;
+  justify-content: space-around;
+}
+
+.clear{
+  width: 20px;
+}
+
+.apply{
+  width: 20px;
+}
+.btn15{
+  width: 40%;
+  margin-left: 25%;
+}
+@media (max-width: 1024px) {
+  .room-container,.book{
+    margin-left: 15%;
+  }
+}
+@media (max-width: 768px) {
+  .hostel-card {
+    display: flex;
+    flex-direction: column; 
+    margin: 20px 20px;
+    
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .card-image {
+    width: 100%; 
+  }
+
+  .room-container {
+    margin-left: 15%;
+    gap: 15px;
+  }
+
+  .btn15 {
+    
+    margin-top: 10px;
+    width: 40%;
+    margin-left: 30%; 
+  }
+
+  .book {
+    margin-left: 10%; 
+  }
+  .btn-infer{
+    margin-left: 0;
+  }
+}

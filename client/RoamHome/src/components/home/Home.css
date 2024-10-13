@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ /* .home{
+  background-image: url(https://image.slidesdocs.com/responsive-images/slides/0-blue-minimalist-work-plan-for-the-second-half-of-year-powerpoint-background_eddd958908__960_540.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   padding: 2%;
+   
+}   */
+
+.image{
+  
+    box-shadow: 5px 5px 10px grey ;
+    width: 100%;
+    height: 500px;  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.3)), url(https://img.freepik.com/premium-photo/minimalist-cozy-home-office-with-natural-light-scandinavian-bedroom-decor-wooden-furniture-indoor-plants_94064-20136.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: brightness(60%); */
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px gray;
+    
+}
+.image img{
+  margin-top: 130px;
+}
+.tag{
+    width: auto;
+    padding-top: 10%;
+    /* border: solid 1px; */
+}
+.tagline{
+    color: rgb(255, 255, 255);
+    margin-left: 45%;
+    margin-right:5rem;
+    font-size: 3.5em
+}
+
+.sub-tagline{
+    color: rgb(255, 255, 255);
+    margin-left: 35%;
+    font-size: 1.5em;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    height: 70px;
+    /* border: solid 1px; */
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 10px gray;
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 70%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-left: 25px;
+    background-color: rgb(64, 64, 64);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 20%;
+  }
+  .mt-5 {
+    margin-top: 5rem;
+  }
+  
+  
+  /* .bg1{
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.aKL4uEbZq-7klVJFFYcATAHaHa&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg2{
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.rgfQPUnudI2_yz_aN7NYTQHaHe&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+  
+  /* .card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .image1 {
+    border-radius: 10px;    
+    align-items: center;
+    width: 100%;
+    
+  }
+  .row{
+    margin-bottom: 50px;
+  }
+  .card1{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  }
+  .card2{
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+  }
+  .card3{
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  } */
+  .cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    
+  }
+  
+  .c1, .c2, .c3 {
+    width: 30%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .c1:hover, .c2:hover, .c3:hover {
+    transform: scale(1.05); 
+    box-shadow: 10px 10px 20px gray; 
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    
+  }
+  
+  .card h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+  }
+ .dropdown{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 1%;
+ }
+ .dropdown:empty{
+  border: none;
+ }
+ .dropdown-row{
+  cursor: pointer;
+  text-align: start;
+  margin: 2px 0;
+ }
+ @media only screen and (min-width : 769px) and (max-width : 1176px) {
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    height: 70px;
+    /* border: solid 1px; */
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 10px gray;
+    
+}
+.tag{
+padding-top: 15%;
+}
+.tagline{
+  color: rgb(255, 255, 255);
+  margin-left: 8%;
+  margin-right:5rem;
+  font-size: 3.5em
+}
+.sub-tagline{
+  text-align: center;
+  margin-left: 1%;
+}
+.image{
+  height: 400px;
+}
+  
+  
+
+ }
+  @media (max-width: 768px) {
+    .tagline {
+        
+        margin-left: 0;
+        font-size: 1.8em;
+        width: 100%;
+        padding: 1%;
+        text-align: center;
+    }
+
+    .sub-tagline {
+        margin-left: 5%;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .search-bar {
+        width: 80%; 
+        margin-left: 10%; 
+        flex-direction: row; 
+        height: auto;
+        border-radius: 0px;
+        
+    }
+
+    .search-input {
+        width: 100%; 
+        border-radius: 0px 0px 0 0; 
+        font-size: small;
+    }
+
+    .search-button {
+        width: 45%; 
+        margin-left: 0;
+        border-radius: 0 0 0px 0px; 
+        font-size: small;
+    }
+    .cards-container {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 80px;
+    }
+  
+    .card {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+    .tag{
+      font-size: large;
+      width: auto;
+      
+    }
+    .tagline{
+      margin-top: 50px;
+    }
+    .image{
+      height: 300px;
+    }
+
+}

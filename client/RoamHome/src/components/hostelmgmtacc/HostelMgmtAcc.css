@@ -1,0 +1,169 @@
+.listings{
+    margin-left: 5%;
+    width: 90%;
+    box-shadow: 5px 5px 5px 5px gray;
+    background-image: url(https://image.slidesdocs.com/responsive-images/slides/41-simple-atmosphere-work-plan-summary-report-planning-work-report-powerpoint-background_05a0db1831__960_540.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.listings h5{
+    font-weight: 400;
+    margin-top: -50px;
+    margin-left: 15%;
+    margin-right: 5%;
+    line-height: 30px;
+}
+.listings h5 span{
+    font-size: xx-large;
+}
+.listings img{
+    width: 8%;
+    margin-top: 20px;
+    margin-left: 7%;
+    mix-blend-mode: multiply;
+}
+
+/* .p3{
+    margin-top: 80px;
+} */
+ .listings{
+    margin-top: -10px;
+ }
+ .btn4{
+    width: 30%;
+    margin-left: 40%;
+    margin-top: 25px;
+    font-weight: 600;
+ }
+ .heading{
+    margin-left:10%;
+    margin-top: 2%;
+ }
+ /* .topHeader{
+    height: 50px;
+    margin-left: -115px;
+    margin-right: -125px;
+ } */
+ .refImages{
+    width: 10%;
+ }
+ .card1, .card2, .card3 {
+    width: 30%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 30px;
+   
+}
+.header1 {
+    position: absolute;
+    height: 220px;
+    width: 95%;
+    margin:0 auto;
+    left: 0;
+    right: 0;
+    top: -30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.card-body{
+    background-color: beige;
+    right: 5px;
+    margin-top: 250px;
+    border-radius: 12px;
+
+}
+.cards-container2 {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .card1 img, .card2 img, .card3 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    
+  }
+   .listing-items .btn8{
+    width: 150px;
+    
+  }
+ .topHeader .myProperties{
+    margin-left: 80px;
+    
+    
+  } 
+  .btn8{
+    margin-left: 70%;
+    margin-bottom: 7%;
+    border-width: 5px;
+    margin-top: -40px;
+    border-color: black;
+
+  }
+  
+
+  @media (max-width: 769px) {
+    
+    .card1, .card2, .card3 {
+        width: 80%;
+        margin-bottom: 20px;
+
+      }
+      .cards-container2{
+        gap: 30px;
+        
+      }
+      
+  }
+ 
+ @media (max-width: 768px){
+    .listings h5 span{
+        font-size: larger;
+    }
+    .p1{
+        padding-top: 15px;
+    }
+    .cards-container2 {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .card1, .card2, .card3 {
+        width: 100%;
+        
+        margin-top: 30px;
+      }
+      .card-body{
+        margin-top: 240px;
+        
+      }
+      .topHeader .myProperties{
+        
+       margin-left: 20px;
+        
+      } 
+      
+      .btn8{
+       font-size: small;
+       display: flex;
+       margin-left: 5%;
+       margin-top: 30px;
+      }
+      .btn4{
+        width: 53%;
+        margin-left: 25%;
+      }
+      .listings h5{
+        font-size: 1rem;
+      }
+      .listings img{
+        width: 15%;
+        margin-left: 2%;
+      }
+      
+ }

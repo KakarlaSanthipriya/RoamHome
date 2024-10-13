@@ -1,0 +1,104 @@
+
+
+.logo{
+    width: 35px;
+    margin-top: 8px;
+    margin-right: 1%;
+}
+
+.name{
+    width: 60%;
+}
+
+li{
+    font-weight: 300;
+}
+
+.more{
+    margin: 0.7rem;
+
+}
+.nav-item{
+    padding: 5px;
+}
+
+.hamburger-menu,.login-menu{
+   list-style: none;
+   position: absolute;
+   top: 12%;
+   right: 1%;
+   box-shadow: 1.5px 1.5px 1.5px 1.5px gray;
+   display: grid;
+   background-color: white;
+   z-index: 1;
+}
+
+.hamburger-menu li,.login-menu li{
+    padding: 1rem;
+    padding-left: 0;
+    position: relative;
+    
+}
+.logo{
+    font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+   
+    .nav-item {
+        
+        padding: 0;
+        margin: 0 ; 
+      }
+      
+      
+      .nav-item .nav-link svg {
+         /* font-size: 1.5rem; 
+        margin-bottom: 5px;   */
+        display: none;
+        
+      }
+      
+      
+      .nav-item .nav-link {
+        color: black; 
+        
+        font-size: 1rem; 
+        text-decoration: none; 
+        margin-top: 5px;
+      }
+      .hamburger-menu,.login-menu{
+        list-style: none;
+        position: absolute;
+        top: 20%;
+        right: 1%;
+        box-shadow: 1.5px 1.5px 1.5px 1.5px gray;
+        display: grid;
+        background-color: white;
+        z-index: 1;
+     }
+     .name-drop{
+        font-size: 1rem;
+        margin-top: 1%;
+     }
+     .prop,.regi{
+        margin-left: -12px;
+        
+    }
+     .name{
+        font-size: 1.5rem;
+        margin-top: 1%;
+        
+     }
+     .logo{
+        font-size: 1.5rem;
+    }
+    .name-logo{
+        margin-left: 15%;
+    }
+    .prop p,.regi p{
+        display: none;
+    }
+    
+     
+  }

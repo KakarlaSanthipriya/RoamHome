@@ -1,0 +1,65 @@
+.image-container{
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    margin-top: 40px;
+    
+}
+.photo{
+    flex-direction: 0 0 auto;
+    width: 500px;
+    margin-right: 10px;
+    scroll-snap-align: start;
+    
+    padding-left: 30px;
+}
+.contact-details{
+  background-color: rgb(156, 155, 155);
+  color: white;
+  padding: 1%;
+}
+
+  .r1{
+    padding: 10px;
+    background-image: url(https://img.freepik.com/free-vector/blue-border-abstract-gradient-background_53876-115744.jpg);
+    /* https://img.freepik.com/free-photo/elegant-white-background-with-gray-abstract-shapes_1017-19952.jpg */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .gen-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .r2,.r3{
+    padding: 10px;
+    width: 600px;
+    background-image: url(https://img.freepik.com/free-vector/blue-border-abstract-gradient-background_53876-115744.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .btn21{
+    margin-left: 45%;
+    width: 35%;
+    margin-bottom: 3%;
+  }
+  @media (max-width: 768px){
+    .gen-container{
+      display: block;
+      
+    }
+    .r2,.r3{
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .r1{
+      width: 100%;
+    }
+    .btn21{
+      margin-left: 25%;
+      width: 50%;
+      margin-bottom: 5%;
+      
+    }
+  }

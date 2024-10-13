@@ -1,0 +1,220 @@
+get http://localhost:5000/hostler-api/hostlers
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoYWl0cmlrYUBnbWFpbC5jb20iLCJpYXQiOjE3MjgyMzcyODQsImV4cCI6MTcyODIzNzI4NH0.bvWQh_wEZTLArWavBkZmTH7ikZafzvzrKKxKv7PyZw8
+
+###
+get http://localhost:5000/hostler-api/hostlers/chaitika
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoYWl0dUBnbWFpbC5jb20iLCJpYXQiOjE3MjgzNzI4NzQsImV4cCI6MTcyODM3Mzc3NH0.aAqPEAuS_W60aWReLlC2VrT_YMPbXdEyKO8G-Y4xNZU
+
+###
+POST http://localhost:5000/hostler-api/hostler
+Content-Type: application/json
+
+{
+    "id": "6110",
+    "username": "chaitika",
+    "password": "chaitu",
+    "confirmpassword":"chaitu",
+    "email": "chaitu@gmail.com",
+    "mobile": "9441854541",
+    "usertype":"Hostler"
+}
+
+###
+POST http://localhost:5000/hostler-api/hostler-login
+Content-Type: application/json
+
+{
+    "email": "chaitu@gmail.com",
+    "password": "chaitu"
+}
+
+###
+PUT http://localhost:5000/hostler-api/hostlers/chaitika/booking
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoYWl0dUBnbWFpbC5jb20iLCJpYXQiOjE3MjgzNzI4NzQsImV4cCI6MTcyODM3Mzc3NH0.aAqPEAuS_W60aWReLlC2VrT_YMPbXdEyKO8G-Y4xNZU
+
+{
+    "fullName": "Varshs Doe",
+    "email": "varsha.doe@gmail.com",
+    "primaryPhone": "9876543210",
+    "altPhone": "123456789",
+    "dob": "2024-10-01",
+    "gender": "Male",
+    "prof": "Engineer",
+    "hostelName": "Engineering Hostel",
+    "roomType": "shared room",
+    "address": "123 Main St, City, Country",
+    "guardianName": "Jane Doe",
+    "guardianPhone": "1234567890",
+    "stay": "3 months"
+}
+
+
+###
+put http://localhost:5000/hostler-api/hostler-update
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoYWl0cmlrYUBnbWFpbC5jb20iLCJpYXQiOjE3MjgyMzczODcsImV4cCI6MTcyODIzODI4N30.vFflgfl5eNdnUeK-dSnDWuEIhyMbZcht3wlua0psJyg
+
+{
+        "username": "chaitrika",
+        "email": "chaitrika@gmail.com",
+        "mobile": "9441854541"
+}
+
+###
+delete http://localhost:5000/hostler-api/hostler/ravi krish
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNoYWl0cmlrYUBnbWFpbC5jb20iLCJpYXQiOjE3MjgyMzczODcsImV4cCI6MTcyODIzODI4N30.vFflgfl5eNdnUeK-dSnDWuEIhyMbZcht3wlua0psJyg
+
+###
+get http://localhost:5000/hostelMgmt-Api/hostelMgmt
+###
+get http://localhost:5000/hostelMgmt-Api/hostelAdmins
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRldmlAZ21haWwuY29tIiwiaWF0IjoxNzI4NDg5MzU4LCJleHAiOjE3Mjg0OTAyNTh9.hhaYg-DHjjDZcyzk4mnDhGFHnpmOq7FBaHovva_tEHg
+
+###
+get http://localhost:5000/hostelMgmt-Api/hostelAdmins/devi
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRldmlAZ21haWwuY29tIiwiaWF0IjoxNzI4MjM3NTI1LCJleHAiOjE3MjgyMzg0MjV9.dFHj8V_MpJo2AGWbCCcX2kfaKGfzj_FUbJNI2s-pLlQ
+
+###
+POST http://localhost:5000/hostelMgmt-Api/admin
+Content-Type: application/json
+
+{
+    "id": "6110",
+    "username": "devi",
+    "password": "devi",
+    "confirmpassword":"devi",
+    "email": "devi@gmail.com",
+    "mobile": "9441854541",
+    "usertype":"hostel Management"
+}
+
+###
+POST http://localhost:5000/hostelMgmt-Api/hostelMgmt-login
+Content-Type: application/json
+
+{
+    "email": "devi@gmail.com",
+    "password": "devi"
+}
+
+###
+PUT http://localhost:5000/hostelMgmt-Api/hostelAdmins/devi/listing
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRldmlAZ21haWwuY29tIiwiaWF0IjoxNzI4NDAxNjU2LCJleHAiOjE3Mjg0MDI1NTZ9.eVbWZGuPYetquaLOnDRIchLVAmJyHL1Jx-xSJr6qJrE
+
+{
+          "hostelName": "devi residents",
+          "address": "37-4-10, watertankroad, 4th street",
+          "city": "Vijayawada",
+          "state": "Andhrapradesh",
+          "pinCode": "520010",
+          "primaryPhone": "9848437067",
+          "altPhone": "",
+          "email": "srinusravanthin@gmail.com",
+          "Hosteltype": "Girls",
+          "hostelOverview": "Skanthi Residents is a wide open hostel for girls where protection of girls is first priority",
+          "roomTypes": [
+            {
+              "name": "Something",
+              "description": "Something consists beds",
+              "available": "05",
+              "occupancy": "2",
+              "monthlyRate": "100",
+              "sixRate": "",
+              "yearlyRate": ""
+            }
+          ],
+          "facilities": [],
+          "photos": [],
+          "allowPets": "yes",
+          "smokingAllowed": "yes",
+          "wifiAvailable": "yes",
+          "acType": "AC",
+          "hotWaterAvailable": "yes",
+          "laundary": "yes",
+          "laundaryfee": "500",
+          "messtypes": "Both",
+          "messfee": "100",
+          "cancellationPolicy": "ecfe",
+          "houseRules": "sdc",
+          "paymentOptions": "Other"
+}
+
+###
+put http://localhost:5000/hostelMgmt-Api/hostelAdmins/devi
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRldmlAZ21haWwuY29tIiwiaWF0IjoxNzI4NDkxNzQ5LCJleHAiOjE3Mjg0OTI2NDl9.4S_lAijtSqrQMFy6YKQFSbLPwnVU6b9s80eewsOIE70
+
+{
+     
+          "hostelName": "santhi residents",
+          "address": "37-4-10, watertankroad, 4th street",
+          "city": "Vijayawada",
+          "state": "Andhrapradesh",
+          "pinCode": "520010",
+          "primaryPhone": "9848437067",
+          "altPhone": "",
+          "email": "srinusravanthin@gmail.com",
+          "Hosteltype": "Girls",
+          "hostelOverview": "Skanthi Residents is a wide open hostel for girls where protection of girls is first priority",
+          "roomTypes": [
+            {
+              "name": "Something",
+              "description": "Something consists beds",
+              "available": "05",
+              "occupancy": "2",
+              "monthlyRate": "100",
+              "sixRate": "",
+              "yearlyRate": ""
+            }
+          ],
+          "facilities": [],
+          "photos": [],
+          "allowPets": "yes",
+          "smokingAllowed": "yes",
+          "wifiAvailable": "yes",
+          "acType": "AC",
+          "hotWaterAvailable": "yes",
+          "laundary": "yes",
+          "laundaryfee": "500",
+          "messtypes": "Both",
+          "messfee": "100",
+          "cancellationPolicy": "ecfe",
+          "houseRules": "sdc",
+          "paymentOptions": "Other"
+}
+
+###
+PUT http://localhost:5000/hostelMgmt-Api/hostelAdmins/devi/reservation
+Content-Type: application/json
+
+{
+    "fullName": "Varshs Doe",
+    "email": "varsha.doe@gmail.com",
+    "primaryPhone": "9876543210",
+    "altPhone": "123456789",
+    "dob": "2024-10-01",
+    "gender": "Male",
+    "prof": "Engineer",
+    "hostelName": "Engineering Hostel",
+    "roomType": "shared room",
+    "address": "123 Main St, City, Country",
+    "guardianName": "Jane Doe",
+    "guardianPhone": "1234567890",
+    "stay": "3 months"
+}
+
+###
+delete http://localhost:5000/hostelMgmt-Api/hostelAdmins/skanthi
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRldmlAZ21haWwuY29tIiwiaWF0IjoxNzI4MjM3NTI1LCJleHAiOjE3MjgyMzg0MjV9.dFHj8V_MpJo2AGWbCCcX2kfaKGfzj_FUbJNI2s-pLlQ
+
+###
+delete http://localhost:5000/hostelMgmt-Api/hostelAdmins/devi/properties/santhi residents
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRldmlAZ21haWwuY29tIiwiaWF0IjoxNzI4MjM3NTI1LCJleHAiOjE3MjgyMzg0MjV9.dFHj8V_MpJo2AGWbCCcX2kfaKGfzj_FUbJNI2s-pLlQ
+
+###
+get http://localhost:5000/hostelMgmt-Api/properties/Vijayawada
+
+###
+get http://localhost:5000/hostelMgmt-Api/search/vi

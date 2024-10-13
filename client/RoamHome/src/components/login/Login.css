@@ -1,0 +1,77 @@
+.login{
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 20px;
+        margin-top: 80px;
+        /* box-shadow: 3px 3px 10px 8px black; */
+        /* background: linear-gradient(to right, #ADA996,#F2F2F2,#DBDBDB,#EAEAEA); */
+        margin-top: -10px;
+}
+   .loginPage{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1));
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   padding: 3%;
+}    
+.hostelimg{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+    
+  }
+  .loginCard{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    width: 75%;
+    margin-left: 60px;
+    
+  } 
+  .hostelimg img{
+    height: 500px;
+    width: 100%;
+  }
+  
+  .loginCard .quote{
+    font-size: 1.5rem;
+  }
+  
+  .signin{
+    transition: transform 0.3s ease;
+    
+  }
+  .signin:hover{
+    transform: scale(1.05); 
+    box-shadow: 10px 10px 20px gray; 
+    
+  }
+  .btn2{
+    margin-right: 8%;
+    width: 50%;
+  }
+  @media (max-width: 1024px)
+  {
+    .btn2{
+      margin-right: 15%;
+    }
+  }
+  @media (max-width: 768px) {
+    .hostelimg{
+      display: none;
+    }
+    .loginCard{
+      grid-row-start: 1;
+      grid-row-end: 3;
+      grid-column-start: 1;
+      grid-column-end: 5;
+      margin-left: 1%;
+      width: 100%;
+      } 
+      
+
+  }

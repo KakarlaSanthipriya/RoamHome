@@ -1,0 +1,241 @@
+.content {
+    flex: 1;
+  
+}
+.profile-circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(169, 96, 103);
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+}
+.main-container {
+    display: flex;
+    flex: 1;
+}
+.sidebar {
+    width: 250px; 
+    background-color: #f8f8f8; 
+    padding: 15px;
+    height: 800px;
+}
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+.profile-view{
+    
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/image10/Abstract-Minimalist-rainbow-gentle-arcs-and-colors-HD-desktop-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+
+}
+.profile-info{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 10%;
+}
+
+.profile-info .Email{
+    text-decoration: underline;
+    
+}
+.profile-info .Mobile{
+    text-decoration: underline;
+}
+
+.update-profile{
+  background-image:url(https://img.freepik.com/free-vector/blue-border-abstract-gradient-background_53876-115744.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.update-form{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 15%;
+    width: 50%;
+}
+.update-prof-img{
+    width: 50px;
+}
+.booking-tags{
+    position: absolute;
+    margin-top: 3%;
+   color: white;
+    margin-left: 28%;
+}
+.view-hostels{
+    padding: 2%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)), url(https://peelandpaper.com/cdn/shop/files/SolidColorWallpaperInFarmhouseLivingRoomWithNeutralColoredInterior_BeigeSofaandFireplaceFullOfChoppedWoodcopy.jpg?v=1705507747&width=1946);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 800px;
+}
+.booking-details{
+    position: absolute;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 150px;
+    padding: 2%;
+}
+  
+.btn5_1{
+    width: 250px;
+    margin-left: -60px;
+    border: none;
+    background-color: transparent;
+}
+
+.btn6_1{
+    display: block;
+    border: none;
+    background-color: transparent;
+}
+
+.btn6{
+    margin-left: 25%;
+    padding-top: 10px;
+    width: 40%;
+    
+}
+.view,.viewp, .viewe, .viewh{
+    margin-top: 20px;
+}
+.viewe, .viewh{
+    margin-left: 20px;
+}
+.viewh{
+    margin-left: 25px;
+}
+.profile-modal{
+    margin-top: 150px;
+    margin-left: 25%;
+    margin-bottom: 160px;
+    
+    
+}
+.profile-modal .modal-dialog {
+    max-width: 230px; 
+    
+    
+}
+.btnv{
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+
+@media (max-width: 768px){
+    .main-container{
+       display: block;
+
+    }
+    .sidebar{
+        display: none;
+    }
+    .update-form{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .update-form p{
+        margin-left: 0;
+        margin-top: 5px;
+        
+    }
+    
+    .btn6{
+        margin-left: 20%;
+    }
+    
+    .booking-details{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 200px;
+    }
+    .booking-tags{
+        margin-left: 20%;
+        margin-top: 50px;
+    }
+    .profile-view, .update-profile, .view-hostels{
+        margin-top: -30px;
+    }
+    .btn21{
+        margin-left: -30px;
+    }
+    /* .side{
+        color: transparent;
+    }
+    .sidebar{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .side-name{
+        width: 90%;
+    } */
+    .viewh,.viewe{
+        margin-left: 15px;
+    }
+    .viewe,.viewp .btn5_1, .viewh .btn5_1{
+        width: 100px;
+    }
+    .view{
+        margin-left: 0;
+    }
+    .md-1{
+        width: 50px;
+    }
+    .more-button button {
+        border: none;
+        background: transparent;
+        
+    }
+}
+/*.home-icon{
+    margin-left: 95%; 
+     padding: 1%; 
+    margin-top: 30px;  
+    width: 5%;
+}
+.home-edit{
+    width: 100%;
+}  */
+  /* .sidebar{
+
+    width: 300px;
+    box-shadow: 1px 1px gray;
+    height: 800px;
+    
+    
+} */
+ /* .btn6{
+    
+    background-color: rgb(253, 205, 213);
+    
+    margin-left: 25%;
+} */
+
+ 
+/*.update-form{
+    width: 650px;
+    margin-top: -700px;
+    background-color: white;
+    margin-left: 25%;
+    height: auto;
+} */

@@ -1,0 +1,25 @@
+.property2{
+    background-image: url(https://img.freepik.com/free-vector/blue-border-abstract-gradient-background_53876-115744.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pform{
+    width: 120%;
+    margin-left: 25%;
+    box-shadow: 3px 3px 8px 8px gray;
+}
+
+@media (max-width:768px) {
+    .pform{
+        margin-left: 5%;
+       font-size: 1 rem; 
+    }
+
+    .b1{
+        width:85px;
+        font-size: 0.01rem;
+        height: 50px;
+        text-align: center;
+        margin-left: 30%;
+    }
+}
