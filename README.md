@@ -11,8 +11,10 @@ RoamHome is a full-stack hostel management web application built using the MERN 
 
 ## Technologies Used
 
-Frontend: React.js, Tailwind CSS
+Frontend: React.js, CSS
+
 Backend: Node.js, Express.js
+
 Database: MongoDB
 
 ## Clone the repository:
