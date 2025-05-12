@@ -19,7 +19,6 @@ Database: MongoDB
 
 ## Clone the repository:
 
-git clone 
-
-```bash https://github.com/KakarlaSanthipriya/RoamHome.git
+```bash
+git clone https://github.com/KakarlaSanthipriya/RoamHome.git
 
